@@ -1,9 +1,12 @@
 public class maze {
 	public static void main(String[] args) {
-		boolean[][] matrix = { { true, true, false, true, true, true }, { true, false, false, true, false, true },
-				{ true, true, true, true, false, true }, { false, false, false, false, true, true },
-				{ false, false, false, false, false, true }, { true, true, true, true, true, true } };
-
+		boolean[][] matrix = { { true, true, false, true, true, true }, 
+				       { true, false, false, true, false, true },
+				       { true, true, true, true, false, true },
+				       { false, false, false, false, true, true },
+				       { false, false, false, false, false, true }, 
+				       { true, true, true, true, true, true } };
+ 
 		System.out.println(isMazeSolved(matrix));
 	}
 
